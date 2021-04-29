@@ -68,9 +68,9 @@ if __name__ == '__main__':
     ############
     ## DEVICE ##
     ############
-    # os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_device)
-    # device = torch.device('cuda')
-    device = torch.device('cpu')
+    os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_device)
+    device = torch.device('cuda')
+    # device = torch.device('cpu')
 
     #################
     ## ENVIRONMENT ##
