@@ -4,7 +4,6 @@ import gym
 import torch
 import torch.nn as nn
 
-
 def set_global_seeds(seed):
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
@@ -16,17 +15,17 @@ def set_global_log_levels(level):
     gym.logger.set_level(level)
 
 
-def orthogonal_init(module, gain=nn.init.calculate_gain('relu')):
-    if isinstance(module, nn.Linear) or isinstance(module, nn.Conv2d):
-        nn.init.orthogonal_(module.weight.data, gain)
-        nn.init.constant_(module.bias.data, 0)
+def orthogonal_init(module, gain=torch.nn.init.calculate_gain('relu')):
+    if isinstance(module, nn.Linear) or isinstance(module, torch.nn.Conv2d):
+        torch.nn.init.orthogonal_(module.weight.data, gain)
+        torch.nn.init.constant_(module.bias.data, 0)
     return module
 
 
 def xavier_uniform_init(module, gain=1.0):
-    if isinstance(module, nn.Linear) or isinstance(module, nn.Conv2d):
-        nn.init.xavier_uniform_(module.weight.data, gain)
-        nn.init.constant_(module.bias.data, 0)
+    if isinstance(module, torch.nn.Linear) or isinstance(module, torch.nn.Conv2d):
+        torch.nn.init.xavier_uniform_(module.weight.data, gain)
+        torch.nn.init.constant_(module.bias.data, 0)
     return module
 
 
