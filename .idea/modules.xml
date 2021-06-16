@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/disout-procgen.iml" filepath="$PROJECT_DIR$/.idea/disout-procgen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/disout-data-augmentation-procgen.iml" filepath="$PROJECT_DIR$/.idea/disout-data-augmentation-procgen.iml" />
     </modules>
   </component>
 </project>
