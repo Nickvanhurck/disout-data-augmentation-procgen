@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_bigfish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_coinrun.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_heist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_starpilot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/ppo.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/ppo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/process_results.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_coinrun.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_coinrun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_heist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_heist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_starpilot.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_starpilot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

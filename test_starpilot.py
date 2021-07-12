@@ -5,6 +5,7 @@ from common.model import NatureModel, ImpalaModel
 from common.policy import CategoricalPolicy
 from common import set_global_seeds, set_global_log_levels
 from agents.ppo import PPO as AGENT
+from agents.ppo_aug import PPO_aug as AUG_AGENT
 
 import os, time, yaml, argparse
 import gym
@@ -68,7 +69,7 @@ if __name__ == '__main__':
     n_envs = hyperparameters.get('n_envs', 64)
     # By default, pytorch utilizes multi-threaded cpu
     # Procgen is able to handle thousand of steps on a single core
-    torch.set_num_threads(1)
+    # torch.set_num_threads(1) # todo: num of threads 1?
     env = ProcgenEnv(num_envs=n_envs,
                      env_name=env_name,
                      start_level=start_level,
@@ -80,17 +81,6 @@ if __name__ == '__main__':
         env = VecNormalize(env, ob=False)  # normalizing returns, but not the img frames.
     env = TransposeFrame(env)
     env = ScaledFloatFrame(env)
-
-    ############
-    ## LOGGER ##
-    ############
-    print('INITIALIZAING LOGGER...')
-    logdir = 'procgen_env/' + env_name + '/' + exp_name + '/' + 'seed' + '_' + \
-             str(seed) + '_' + time.strftime("%d-%m-%Y_%H-%M-%S")
-    logdir = os.path.join('logs', logdir)
-    if not (os.path.exists(logdir)):
-        os.makedirs(logdir)
-    logger = Logger(n_envs, logdir)
 
     ###########
     ## MODEL ##
@@ -124,52 +114,44 @@ if __name__ == '__main__':
     hidden_state_dim = model.output_dim
     storage = Storage(observation_shape, hidden_state_dim, n_steps, n_envs, device)
 
-    ###########
-    ## AGENT ##
-    ###########
-    print('INTIALIZING AGENT...')
-    algo = hyperparameters.get('algo', 'ppo')
-    # if algo == 'ppo':
-    #     from procgen_env.agents import PPO as AGENT
-    # else:
-    #     raise NotImplementedError
-    agent = AGENT(env, policy, logger, storage, device, num_checkpoints, **hyperparameters)
+    # REST (added)
+    log_path = "logs/procgen_env/" + env_name + "/"
 
-    # saved (as example)
-    torch.save({'state_dict': agent.policy.state_dict()}, agent.logger.logdir + '/model_' + str(agent.t) + '.pth')
+    baseline_path = os.path.join(log_path, "baseline")
+    data_aug_path = os.path.join(log_path, "data_aug")
+    disout_path = os.path.join(log_path, "disout")
+    disout_data_aug_path = os.path.join(log_path, "disout_data_aug")
 
-    ##################
-    ## LOAD MODEL 1 ##
-    ##################
-    # model = PPO(*args, **kwargs)
-    baseline_PATH = ""
-    agent.load_state_dict(torch.load(baseline_PATH))
-    agent.eval()
+    # for loop over algo's (4) and for loop over models (8)
+    for i, DIR in enumerate([baseline_path, disout_path, data_aug_path, disout_data_aug_path]):
+        # loop over files in dir
+        for PATH in os.listdir(DIR):
+            # PATH (seed dir)
+            PATH = os.path.join(DIR, PATH)
 
-    ##################
-    ## LOAD MODEL 2 ##
-    ##################
-    model = TheModelClass(*args, **kwargs)
-    model.load_state_dict(torch.load(PATH))
-    model.eval()
+            ############
+            ## LOGGER ##
+            ############
+            # print('INITIALIZAING LOGGER...')
+            logger = Logger(n_envs, PATH, True)
 
-    ##################
-    ## LOAD MODEL 3 ##
-    ##################
-    model = TheModelClass(*args, **kwargs)
-    model.load_state_dict(torch.load(PATH))
-    model.eval()
+            ###########
+            ## AGENT ##
+            ###########
+            # print('INTIALIZING AGENT...')
+            if i >= 2:
+                agent = AUG_AGENT(env, policy, logger, storage, device, num_checkpoints, **hyperparameters)
+            else:
+                agent = AGENT(env, policy, logger, storage, device, num_checkpoints, **hyperparameters)
 
-    ##################
-    ## LOAD MODEL 4 ##
-    ##################
-    model = TheModelClass(*args, **kwargs)
-    model.load_state_dict(torch.load(PATH))
-    model.eval()
+            for file in os.listdir(PATH):
+                file = os.path.join(PATH, file)
+                if file.endswith(".pth"):
+                    policy.load_state_dict(torch.load(file)["state_dict"])
+                    policy.eval()
 
-    ##############
-    ## TRAINING ##
-    ##############
-    print('START TESTING...')
-    agent.test(num_timesteps)
-    # agent.train(num_timesteps)
+                    #############
+                    ## TESTING ##
+                    #############
+                    # print('START TESTING...')
+                    agent.test(num_timesteps)
