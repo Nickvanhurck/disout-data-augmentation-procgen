@@ -11,7 +11,7 @@ disout_path = os.path.join(log_path, "disout")
 disout_data_aug_path = os.path.join(log_path, "disout_data_aug")
 
 runs = 8
-labels = ["baseline", "data augmentation", "disout", "disout + data augmentation"]
+labels = ["baseline", "crop data augmentation", "disout", "disout + crop data augmentation"]
 rewards = [[0 for _ in range(1526)] for _ in range(4)]
 rewards_time = [[0 for _ in range(1526)] for _ in range(4)]
 
