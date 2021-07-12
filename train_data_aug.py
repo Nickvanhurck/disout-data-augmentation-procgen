@@ -27,7 +27,7 @@ aug_to_func = {
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--exp_name', type=str, default='data_aug', help='experiment name')
-    parser.add_argument('--env_name', type=str, default='bigfish', help='environment ID')
+    parser.add_argument('--env_name', type=str, default='starpilot', help='environment ID')
     parser.add_argument('--start_level', type=int, default=int(0), help='start-level for environment')
     parser.add_argument('--num_levels', type=int, default=int(200), help='number of training levels for environment')
     parser.add_argument('--distribution_mode', type=str, default='easy', help='distribution mode for environment')
