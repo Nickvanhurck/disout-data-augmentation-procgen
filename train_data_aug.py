@@ -97,7 +97,7 @@ if __name__ == '__main__':
     ## LOGGER ##
     ############
     print('INITIALIZAING LOGGER...')
-    logdir = 'procgen_env/' + env_name + '/' + exp_name + '/' + 'seed' + '_' + \
+    logdir = 'og/' + env_name + '/' + exp_name + '/' + 'seed' + '_' + \
              str(seed) + '_' + time.strftime("%d-%m-%Y_%H-%M-%S")
     logdir = os.path.join('logs', logdir)
     if not (os.path.exists(logdir)):

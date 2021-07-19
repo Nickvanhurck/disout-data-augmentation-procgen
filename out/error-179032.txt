@@ -1,2 +1,0 @@
-slurmstepd-node001: error: *** JOB 179032 ON node001 CANCELLED AT 2021-05-19T23:15:47 ***
-slurmstepd-node001: error: Exceeded job memory limit at some point.

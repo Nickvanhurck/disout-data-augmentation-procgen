@@ -119,15 +119,12 @@ if __name__ == '__main__':
     storage = Storage(observation_shape, hidden_state_dim, n_steps, n_envs, device)
 
     # REST (added)
-    log_path = "logs/procgen_env/" + env_name + "/"
-
-    baseline_path = os.path.join(log_path, "baseline")
-    data_aug_path = os.path.join(log_path, "data_aug")
-    disout_path = os.path.join(log_path, "disout")
-    disout_data_aug_path = os.path.join(log_path, "disout_data_aug")
+    log_test_path = "logs/testing/" + env_name + "/"
+    log_path = "logs/training/" + env_name + "/"
 
     # for loop over algo's (4) and for loop over models (8)
-    for i, DIR in enumerate([baseline_path, disout_path, data_aug_path, disout_data_aug_path]):
+    for i, dir in enumerate(["baseline", "data_aug", "disout", "disout_data_aug"]):
+        DIR = os.path.join(log_path, dir)
         # loop over files in dir
         for PATH in os.listdir(DIR):
             # PATH (seed dir)
@@ -137,7 +134,7 @@ if __name__ == '__main__':
             ## LOGGER ##
             ############
             # print('INITIALIZAING LOGGER...')
-            logger = Logger(n_envs, os.path.join(PATH, "testing"), True)
+            logger = Logger(n_envs, log_test_path, True)
 
             for file in os.listdir(PATH):
                 file = os.path.join(PATH, file)

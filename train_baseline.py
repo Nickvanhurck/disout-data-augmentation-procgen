@@ -85,7 +85,7 @@ if __name__ == '__main__':
     ## LOGGER ##
     ############
     print('INITIALIZAING LOGGER...')
-    logdir = 'procgen_env/' + env_name + '/' + exp_name + '/' + 'seed' + '_' + \
+    logdir = 'og/' + env_name + '/' + exp_name + '/' + 'seed' + '_' + \
              str(seed) + '_' + time.strftime("%d-%m-%Y_%H-%M-%S")
     logdir = os.path.join('logs', logdir)
     if not (os.path.exists(logdir)):
@@ -130,7 +130,7 @@ if __name__ == '__main__':
     print('INTIALIZING AGENT...')
     algo = hyperparameters.get('algo', 'ppo')
     # if algo == 'ppo':
-    #     from procgen_env.agents import PPO as AGENT
+    #     from og.agents import PPO as AGENT
     # else:
     #     raise NotImplementedError
     agent = AGENT(env, policy, logger, storage, device, num_checkpoints, **hyperparameters)

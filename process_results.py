@@ -3,7 +3,7 @@ import csv
 import numpy as np
 import matplotlib.pyplot as plt
 
-log_path = "logs/procgen_env/coinrun/"
+log_path = "logs/og/coinrun/"
 
 baseline_path = os.path.join(log_path, "baseline")
 data_aug_path = os.path.join(log_path, "data_aug")
