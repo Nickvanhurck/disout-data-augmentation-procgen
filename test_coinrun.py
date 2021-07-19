@@ -57,8 +57,12 @@ if __name__ == '__main__':
     ############
     ## DEVICE ##
     ############
-    os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_device)  # "-1"  # str(gpu_device)
+    # gpu
+    os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_device)  # str(gpu_device)
     device = torch.device('cuda')
+
+    # cpu
+    # os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
     # device = torch.device('cpu')
 
     #################
@@ -133,22 +137,23 @@ if __name__ == '__main__':
             ## LOGGER ##
             ############
             # print('INITIALIZAING LOGGER...')
-            logger = Logger(n_envs, PATH, True)
-
-            ###########
-            ## AGENT ##
-            ###########
-            # print('INTIALIZING AGENT...')
-            if i >= 2:
-                agent = AUG_AGENT(env, policy, logger, storage, device, num_checkpoints, **hyperparameters)
-            else:
-                agent = AGENT(env, policy, logger, storage, device, num_checkpoints, **hyperparameters)
+            logger = Logger(n_envs, os.path.join(PATH, "testing"), True)
 
             for file in os.listdir(PATH):
                 file = os.path.join(PATH, file)
                 if file.endswith(".pth"):
                     policy.load_state_dict(torch.load(file)["state_dict"])
-                    policy.eval()
+                    # policy.load_state_dict(torch.load(file, map_location=torch.device('cpu'))["state_dict"])
+                    # policy.eval()
+
+                    ###########
+                    ## AGENT ##
+                    ###########
+                    # print('INTIALIZING AGENT...')
+                    if i >= 2:
+                        agent = AUG_AGENT(env, policy, logger, storage, device, num_checkpoints, **hyperparameters)
+                    else:
+                        agent = AGENT(env, policy, logger, storage, device, num_checkpoints, **hyperparameters)
 
                     #############
                     ## TESTING ##

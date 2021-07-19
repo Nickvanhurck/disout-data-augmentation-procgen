@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/procgen_env/bigfish/baseline/seed_1247_16-06-2021_21-31-27/log.csv" beforeDir="false" afterPath="$PROJECT_DIR$/logs/procgen_env/bigfish/baseline/seed_1247_16-06-2021_21-31-27/log.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/procgen_env/coinrun/baseline/seed_5783_10-06-2021_22-39-54/log.csv" beforeDir="false" afterPath="$PROJECT_DIR$/logs/procgen_env/coinrun/baseline/seed_5783_10-06-2021_22-39-54/log.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/procgen_env/heist/baseline/seed_7575_24-06-2021_06-57-42/log.csv" beforeDir="false" afterPath="$PROJECT_DIR$/logs/procgen_env/heist/baseline/seed_7575_24-06-2021_06-57-42/log.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/procgen_env/starpilot/baseline/seed_5581_01-07-2021_05-09-56/log.csv" beforeDir="false" afterPath="$PROJECT_DIR$/logs/procgen_env/starpilot/baseline/seed_5581_01-07-2021_05-09-56/log.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bigfish.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_bigfish.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_coinrun.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_coinrun.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_heist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_heist.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_starpilot.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_starpilot.py" afterDir="false" />
@@ -83,9 +88,75 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_coinrun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="disout-data-augmentation-procgen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_coinrun.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_heist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="disout-data-augmentation-procgen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_heist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_starpilot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="disout-data-augmentation-procgen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_starpilot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.test_bigfish" />
+        <item itemvalue="Python.test_starpilot" />
+        <item itemvalue="Python.test_heist" />
+        <item itemvalue="Python.test_coinrun" />
         <item itemvalue="Python.process_results" />
       </list>
     </recent_temporary>
