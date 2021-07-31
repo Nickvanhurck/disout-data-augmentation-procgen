@@ -182,3 +182,33 @@ class PPO_aug(BaseAgent):
                            '/model_' + str(self.t) + '.pth')
                 checkpoint_cnt += 1
         self.env.close()
+
+    def test(self, num_timesteps):
+        obs = self.env.reset()
+        hidden_state = np.zeros((self.n_envs, self.storage.hidden_state_size))
+        done = np.zeros(self.n_envs)
+
+        while self.t < num_timesteps:
+            # Run Policy
+            self.policy.eval()
+            for _ in range(self.n_steps):
+                act, log_prob_act, value, next_hidden_state = self.predict(obs, hidden_state, done)
+                next_obs, rew, done, info = self.env.step(act)
+                self.storage.store(obs, hidden_state, act, rew, done, info, log_prob_act, value)
+                obs = next_obs
+                hidden_state = next_hidden_state
+            _, _, last_val, hidden_state = self.predict(obs, hidden_state, done)
+            self.storage.store_last(obs, hidden_state, last_val)
+            # Compute advantage estimates
+            self.storage.compute_estimates(self.gamma, self.lmbda, self.use_gae, self.normalize_adv)
+
+            # Optimize policy & valueq
+            summary = self.optimize()
+            # Log the testing-procedure
+            self.t += self.n_steps * self.n_envs
+            rew_batch, done_batch = self.storage.fetch_log_data()
+            self.logger.feed(rew_batch, done_batch)
+            self.logger.write_summary(summary)
+            self.logger.dump()
+
+        self.env.close()
