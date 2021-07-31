@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "test_bigfish.py", line 159, in <module>
+    agent.test(num_timesteps)
+AttributeError: 'PPO_aug' object has no attribute 'test'
+srun: error: node001: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "test_coinrun.py", line 159, in <module>
+    agent.test(num_timesteps)
+AttributeError: 'PPO_aug' object has no attribute 'test'
+srun: error: node001: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "test_heist.py", line 159, in <module>
+    agent.test(num_timesteps)
+AttributeError: 'PPO_aug' object has no attribute 'test'
+srun: error: node001: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "test_starpilot.py", line 159, in <module>
+    agent.test(num_timesteps)
+AttributeError: 'PPO_aug' object has no attribute 'test'
+srun: error: node001: task 0: Exited with exit code 1
