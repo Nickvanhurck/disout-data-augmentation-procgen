@@ -130,11 +130,13 @@ if __name__ == '__main__':
             # PATH (seed dir)
             PATH = os.path.join(DIR, PATH)
 
+            log_save_dir = os.path.join(log_test_path,PATH)
+
             ############
             ## LOGGER ##
             ############
             # print('INITIALIZAING LOGGER...')
-            logger = Logger(n_envs, log_test_path, True)
+            logger = Logger(n_envs, log_save_dir, True)
 
             for file in os.listdir(PATH):
                 file = os.path.join(PATH, file)
