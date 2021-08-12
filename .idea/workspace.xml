@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/og/coinrun/baseline/seed_263_05-05-2021_11-17-10/events.out.tfevents.1620206231.xeph-P65-P67SE.11009.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/og/coinrun/baseline/seed_3176_05-05-2021_11-13-30/events.out.tfevents.1620206046.xeph-P65-P67SE.10577.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/og/coinrun/baseline/seed_5289_05-05-2021_15-50-04/events.out.tfevents.1620223205.xeph-P65-P67SE.70638.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/og/coinrun/data_aug/seed_185_19-05-2021_23-20-21/events.out.tfevents.1621459221.node001.33005.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/og/coinrun/data_aug/seed_185_19-05-2021_23-20-21/log.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/og/coinrun/data_aug/seed_185_19-05-2021_23-20-21/model_25001984.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/og/coinrun/data_aug/seed_6084_05-05-2021_15-12-56/events.out.tfevents.1620220378.xeph-P65-P67SE.68567.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/og/coinrun/data_aug/seed_6485_01-05-2021_12-18-41/events.out.tfevents.1619864322.xeph-P65-P67SE.8831.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/og/coinrun/data_aug/seed_7128_05-05-2021_11-15-13/events.out.tfevents.1620206114.xeph-P65-P67SE.10836.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/disout-data-augmentation-procgen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/disout-data-augmentation-procgen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bigfish.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_bigfish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_coinrun.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_coinrun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_heist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_heist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_starpilot.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_starpilot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agents/ppo_aug.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/ppo_aug.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627743727665</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test files change to only do disout and data aug">
+      <created>1628757070643</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628757070643</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +244,7 @@
     <MESSAGE value="testing shell script" />
     <MESSAGE value="ppo_aug test update" />
     <MESSAGE value="testing log dir update" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing log dir update" />
+    <MESSAGE value="test files change to only do disout and data aug" />
+    <option name="LAST_COMMIT_MESSAGE" value="test files change to only do disout and data aug" />
   </component>
 </project>

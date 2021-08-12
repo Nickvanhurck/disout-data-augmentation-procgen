@@ -1,5 +1,6 @@
 from .base_agent import BaseAgent
 from common.misc_util import adjust_lr
+from common import data_augs
 import torch
 import torch.optim as optim
 import numpy as np
@@ -55,7 +56,7 @@ class PPO_aug(BaseAgent):
 
         # added for aug
         self.aug_id = aug_id
-        self.aug_func = aug_func
+        self.aug_func = data_augs.Crop
         self.aug_coef = aug_coef
 
     def predict(self, obs, hidden_state, done):
