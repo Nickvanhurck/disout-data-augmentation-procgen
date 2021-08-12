@@ -123,7 +123,8 @@ if __name__ == '__main__':
     log_path = "logs/training/" + env_name + "/"
 
     # for loop over algo's (4) and for loop over models (8)
-    for i, dir in enumerate(["baseline", "data_aug", "disout", "disout_data_aug"]):
+    # for i, dir in enumerate(["baseline", "data_aug", "disout", "disout_data_aug"]):
+    for i, dir in enumerate(["disout", "disout_data_aug"]):
         DIR = os.path.join(log_path, dir)
         # loop over files in dir
         for PATH in os.listdir(DIR):
