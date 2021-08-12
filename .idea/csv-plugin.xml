@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/logs/testing/bigfish/logs/training/bigfish/data_aug/seed_1752_19-06-2021_08-01-10/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
