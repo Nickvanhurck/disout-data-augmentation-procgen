@@ -1,0 +1,243 @@
+[LOADING HYPERPARAMETERS...]
+algo : ppo
+n_envs : 64
+n_steps : 256
+epoch : 3
+mini_batch_per_epoch : 8
+mini_batch_size : 2048
+gamma : 0.999
+lmbda : 0.95
+learning_rate : 0.0005
+grad_clip_norm : 0.5
+eps_clip : 0.2
+value_coef : 0.5
+entropy_coef : 0.01
+aug_coef : 0.1
+normalize_adv : True
+normalize_rew : True
+use_gae : True
+architecture : impala
+recurrent : False
+INITIALIZAING ENVIRONMENTS...
+INTIALIZING MODEL...
+INITIALIZAING STORAGE...
+timesteps               16384.000000
+wall_time                   7.898687
+num_episodes               90.000000
+max_episode_rewards         4.000000
+mean_episode_rewards        1.075000
+min_episode_rewards         0.000000
+max_episode_len           226.000000
+mean_episode_len           88.150000
+min_episode_len             3.000000
+Name: 0, dtype: float64
+timesteps               32768.000000
+wall_time                  15.682759
+num_episodes              177.000000
+max_episode_rewards        12.000000
+mean_episode_rewards        2.800000
+min_episode_rewards         0.000000
+max_episode_len           468.000000
+mean_episode_len          162.725000
+min_episode_len            10.000000
+Name: 1, dtype: float64
+timesteps               49152.000000
+wall_time                  23.505979
+num_episodes              285.000000
+max_episode_rewards        15.000000
+mean_episode_rewards        2.450000
+min_episode_rewards         0.000000
+max_episode_len           529.000000
+mean_episode_len          164.800000
+min_episode_len             8.000000
+Name: 2, dtype: float64
+timesteps               65536.000000
+wall_time                  31.345044
+num_episodes              364.000000
+max_episode_rewards        11.000000
+mean_episode_rewards        2.725000
+min_episode_rewards         0.000000
+max_episode_len           694.000000
+mean_episode_len          164.250000
+min_episode_len            12.000000
+Name: 3, dtype: float64
+timesteps               81920.000000
+wall_time                  39.135133
+num_episodes              453.000000
+max_episode_rewards        40.000000
+mean_episode_rewards        3.600000
+min_episode_rewards         0.000000
+max_episode_len           695.000000
+mean_episode_len          168.525000
+min_episode_len             4.000000
+Name: 4, dtype: float64
+timesteps               98304.000000
+wall_time                  46.961797
+num_episodes              529.000000
+max_episode_rewards        40.000000
+mean_episode_rewards        5.825000
+min_episode_rewards         0.000000
+max_episode_len           749.000000
+mean_episode_len          195.925000
+min_episode_len             6.000000
+Name: 5, dtype: float64
+timesteps               114688.000000
+wall_time                   54.748275
+num_episodes               621.000000
+max_episode_rewards         19.000000
+mean_episode_rewards         2.650000
+min_episode_rewards          0.000000
+max_episode_len           1023.000000
+mean_episode_len           160.525000
+min_episode_len             10.000000
+Name: 6, dtype: float64
+timesteps               131072.000000
+wall_time                   62.552349
+num_episodes               720.000000
+max_episode_rewards         40.000000
+mean_episode_rewards         5.275000
+min_episode_rewards          0.000000
+max_episode_len            650.000000
+mean_episode_len           218.225000
+min_episode_len             16.000000
+Name: 7, dtype: float64
+timesteps               147456.000000
+wall_time                   70.335317
+num_episodes               810.000000
+max_episode_rewards         24.000000
+mean_episode_rewards         3.875000
+min_episode_rewards          0.000000
+max_episode_len            908.000000
+mean_episode_len           186.825000
+min_episode_len             35.000000
+Name: 8, dtype: float64
+timesteps               163840.000000
+wall_time                   78.150076
+num_episodes               918.000000
+max_episode_rewards         40.000000
+mean_episode_rewards         4.625000
+min_episode_rewards          0.000000
+max_episode_len            890.000000
+mean_episode_len           189.425000
+min_episode_len              7.000000
+Name: 9, dtype: float64
+timesteps               180224.000000
+wall_time                   85.961314
+num_episodes               999.000000
+max_episode_rewards         21.000000
+mean_episode_rewards         2.575000
+min_episode_rewards          0.000000
+max_episode_len            565.000000
+mean_episode_len           148.875000
+min_episode_len             12.000000
+Name: 10, dtype: float64
+timesteps               196608.000000
+wall_time                   93.779175
+num_episodes              1091.000000
+max_episode_rewards         24.000000
+mean_episode_rewards         4.650000
+min_episode_rewards          0.000000
+max_episode_len            692.000000
+mean_episode_len           220.775000
+min_episode_len             22.000000
+Name: 11, dtype: float64
+timesteps               212992.00000
+wall_time                  101.61975
+num_episodes              1179.00000
+max_episode_rewards         16.00000
+mean_episode_rewards         2.42500
+min_episode_rewards          0.00000
+max_episode_len            531.00000
+mean_episode_len           157.47500
+min_episode_len             12.00000
+Name: 12, dtype: float64
+timesteps               229376.000000
+wall_time                  109.440806
+num_episodes              1271.000000
+max_episode_rewards         40.000000
+mean_episode_rewards         5.050000
+min_episode_rewards          0.000000
+max_episode_len            869.000000
+mean_episode_len           208.150000
+min_episode_len             34.000000
+Name: 13, dtype: float64
+timesteps               245760.000000
+wall_time                  117.248275
+num_episodes              1368.000000
+max_episode_rewards         40.000000
+mean_episode_rewards         3.475000
+min_episode_rewards          0.000000
+max_episode_len            949.000000
+mean_episode_len           171.900000
+min_episode_len             11.000000
+Name: 14, dtype: float64
+timesteps               262144.000000
+wall_time                  125.074128
+num_episodes              1457.000000
+max_episode_rewards         40.000000
+mean_episode_rewards         3.425000
+min_episode_rewards          0.000000
+max_episode_len           1100.000000
+mean_episode_len           184.550000
+min_episode_len             29.000000
+Name: 15, dtype: float64
+timesteps               278528.000000
+wall_time                  132.872731
+num_episodes              1540.000000
+max_episode_rewards         26.000000
+mean_episode_rewards         3.950000
+min_episode_rewards          0.000000
+max_episode_len            807.000000
+mean_episode_len           189.475000
+min_episode_len             18.000000
+Name: 16, dtype: float64
+timesteps               294912.000000
+wall_time                  140.679831
+num_episodes              1638.000000
+max_episode_rewards         40.000000
+mean_episode_rewards         4.150000
+min_episode_rewards          0.000000
+max_episode_len            762.000000
+mean_episode_len           186.900000
+min_episode_len             12.000000
+Name: 17, dtype: float64
+timesteps               311296.000000
+wall_time                  148.308528
+num_episodes              1719.000000
+max_episode_rewards         19.000000
+mean_episode_rewards         3.525000
+min_episode_rewards          0.000000
+max_episode_len            624.000000
+mean_episode_len           199.250000
+min_episode_len              7.000000
+Name: 18, dtype: float64
+timesteps               327680.00000
+wall_time                  156.15202
+num_episodes              1804.00000
+max_episode_rewards         24.00000
+mean_episode_rewards         3.25000
+min_episode_rewards          0.00000
+max_episode_len            678.00000
+mean_episode_len           180.25000
+min_episode_len             24.00000
+Name: 19, dtype: float64
+timesteps               344064.000000
+wall_time                  163.936854
+num_episodes              1884.000000
+max_episode_rewards         40.000000
+mean_episode_rewards         4.625000
+min_episode_rewards          0.000000
+max_episode_len            759.000000
+mean_episode_len           193.600000
+min_episode_len             27.000000
+Name: 20, dtype: float64
+timesteps               360448.000000
+wall_time                  171.762941
+num_episodes              1965.000000
+max_episode_rewards         26.000000
+mean_episode_rewards         3.100000
+min_episode_rewards          0.000000
+max_episode_len            683.000000
+mean_episode_len           165.800000
+min_episode_len              7.000000
+Name: 21, dtype: float64

@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "test_bigfish.py", line 161, in <module>
+    agent.test(num_timesteps)
+  File "/home/nvanhurck/disout-data-augmentation-procgen/agents/ppo_aug.py", line 206, in test
+    summary = self.optimize()
+  File "/home/nvanhurck/disout-data-augmentation-procgen/agents/ppo_aug.py", line 105, in optimize
+    obs_batch_aug = self.aug_func.do_augmentation(obs_batch)
+AttributeError: 'NoneType' object has no attribute 'do_augmentation'
+srun: error: node001: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "test_coinrun.py", line 161, in <module>
+    agent.test(num_timesteps)
+  File "/home/nvanhurck/disout-data-augmentation-procgen/agents/ppo_aug.py", line 206, in test
+    summary = self.optimize()
+  File "/home/nvanhurck/disout-data-augmentation-procgen/agents/ppo_aug.py", line 105, in optimize
+    obs_batch_aug = self.aug_func.do_augmentation(obs_batch)
+AttributeError: 'NoneType' object has no attribute 'do_augmentation'
+srun: error: node001: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "test_heist.py", line 161, in <module>
+    agent.test(num_timesteps)
+  File "/home/nvanhurck/disout-data-augmentation-procgen/agents/ppo_aug.py", line 206, in test
+    summary = self.optimize()
+  File "/home/nvanhurck/disout-data-augmentation-procgen/agents/ppo_aug.py", line 105, in optimize
+    obs_batch_aug = self.aug_func.do_augmentation(obs_batch)
+AttributeError: 'NoneType' object has no attribute 'do_augmentation'
+srun: error: node001: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "test_starpilot.py", line 161, in <module>
+    agent.test(num_timesteps)
+  File "/home/nvanhurck/disout-data-augmentation-procgen/agents/ppo_aug.py", line 206, in test
+    summary = self.optimize()
+  File "/home/nvanhurck/disout-data-augmentation-procgen/agents/ppo_aug.py", line 105, in optimize
+    obs_batch_aug = self.aug_func.do_augmentation(obs_batch)
+AttributeError: 'NoneType' object has no attribute 'do_augmentation'
+srun: error: node001: task 0: Exited with exit code 1
