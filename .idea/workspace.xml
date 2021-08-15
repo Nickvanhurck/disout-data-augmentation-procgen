@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/agents/ppo_aug.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/ppo_aug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/process_results.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_bigfish">
+  <component name="RunManager" selected="Python.process_results">
     <configuration name="process_results" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="disout-data-augmentation-procgen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.process_results" />
         <item itemvalue="Python.test_bigfish" />
         <item itemvalue="Python.test_starpilot" />
         <item itemvalue="Python.test_heist" />
         <item itemvalue="Python.test_coinrun" />
-        <item itemvalue="Python.process_results" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628757070643</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="crop data aug">
+      <created>1628757327319</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628757327319</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +254,7 @@
     <MESSAGE value="ppo_aug test update" />
     <MESSAGE value="testing log dir update" />
     <MESSAGE value="test files change to only do disout and data aug" />
-    <option name="LAST_COMMIT_MESSAGE" value="test files change to only do disout and data aug" />
+    <MESSAGE value="crop data aug" />
+    <option name="LAST_COMMIT_MESSAGE" value="crop data aug" />
   </component>
 </project>
