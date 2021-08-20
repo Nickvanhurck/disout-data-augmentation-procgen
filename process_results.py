@@ -49,8 +49,8 @@ for env in ["bigfish", "coinrun", "heist", "starpilot"]:
         # plt.plot(training_new_rewards_time[i], np.cumsum(training_new_rewards[i]), alpha=0.9, label=labels[i])
         plt.plot(training_new_rewards_time[i], training_new_rewards[i], alpha=0.9, label=labels[i])
 
-    plt.xlabel('episodes')
-    plt.ylabel('reward')
+    plt.xlabel('Timesteps (M)')
+    plt.ylabel('Score')
     plt.legend()
 
     plt.savefig("plots/" + env + "/training_rewards.pdf")
@@ -71,27 +71,36 @@ for env in ["bigfish", "coinrun", "heist", "starpilot"]:
     testing_rewards_time = [[0 for _ in range(1526)] for _ in range(4)]
 
     # for index, path in enumerate([testing_baseline_path, testing_data_aug_path, testing_disout_path, testing_disout_data_aug_path]):
-    testset = [testing_baseline_path, testing_data_aug_path]
+    testset = [testing_baseline_path, testing_data_aug_path, testing_disout_path, testing_disout_data_aug_path]
+    # testset = [testing_baseline_path, testing_data_aug_path]
     for index, path in enumerate(testset):
-        for directory in os.listdir(path):
-            # print(directory)
-            dir_path = os.path.join(path, directory)
-            # print(dir_path)
-            for file in os.listdir(dir_path):
-                if file.endswith(".csv"):
-                    file_path = os.path.join(dir_path, file)
-                    with open(file_path, newline='') as csvfile:
-                        logs = csv.reader(csvfile, delimiter=',', quotechar='|')
-                        for i, log in enumerate(logs):
-                            if i != 0:
-                                testing_rewards_time[index][i - 1] += float(log[0])
-                                testing_rewards[index][i - 1] += float(log[4])
+        try:
+            for directory in os.listdir(path):
+                # print(directory)
+                dir_path = os.path.join(path, directory)
+                # print(dir_path)
+                for file in os.listdir(dir_path):
+                    if file.endswith(".csv"):
+                        file_path = os.path.join(dir_path, file)
+                        with open(file_path, newline='') as csvfile:
+                            logs = csv.reader(csvfile, delimiter=',', quotechar='|')
+                            for i, log in enumerate(logs):
+                                if i != 0:
+                                    testing_rewards_time[index][i - 1] += float(log[0])
+                                    testing_rewards[index][i - 1] += float(log[4])
+        except FileNotFoundError:
+            print("file not found")
+
+    if env == "coinrun":
+        print(len(testset))
 
     testing_new_rewards = [[] for _ in range(len(testset))]
     testing_new_rewards_time = [[] for _ in range(len(testset))]
 
     for i in range(len(testset)):
         for x in testing_rewards[i]:
+            if env == "coinrun":
+                print(str(i) + ": " + str(x / runs))
             testing_new_rewards[i].append(x / runs)
 
         for x in testing_rewards_time[i]:
@@ -100,9 +109,14 @@ for env in ["bigfish", "coinrun", "heist", "starpilot"]:
         # plt.plot(testing_new_rewards_time[i], np.cumsum(testing_new_rewards[i]), alpha=0.9, label=labels[i])
         plt.plot(testing_new_rewards_time[i], testing_new_rewards[i], alpha=0.9, label=labels[i])
 
-    plt.xlabel('episodes')
-    plt.ylabel('reward')
+    plt.xlabel('Timesteps (M)')
+    plt.ylabel('Score')
     plt.legend()
+
+    # if env == "coinrun":
+    #     # hier is iets mis?
+    #     print(testing_new_rewards_time[0])
+    #     print(testing_new_rewards_time[1])
 
     plt.savefig("plots/" + env + "/testing_rewards.pdf")
     # plt.savefig("plots/" + env + "/testing_cum_rewards.pdf")

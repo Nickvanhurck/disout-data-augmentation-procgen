@@ -3,6 +3,62 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="/logs/testing/bigfish/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/testing/bigfish/logs/training/bigfish/baseline/seed_1247_16-06-2021_21-31-27/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/testing/bigfish/logs/training/bigfish/baseline/seed_4349_17-06-2021_04-06-12/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/testing/bigfish/logs/training/bigfish/baseline/seed_4388_16-06-2021_14-57-15/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/testing/bigfish/logs/training/bigfish/baseline/seed_4735_17-06-2021_07-24-23/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/testing/bigfish/logs/training/bigfish/baseline/seed_5064_17-06-2021_10-40-52/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/testing/bigfish/logs/training/bigfish/baseline/seed_6595_17-06-2021_00-49-37/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/testing/bigfish/logs/training/bigfish/baseline/seed_7650_17-06-2021_13-59-00/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/logs/testing/bigfish/logs/training/bigfish/baseline/seed_979_16-06-2021_18-15-00/log.csv">
           <value>
             <Attribute>
@@ -11,6 +67,76 @@
           </value>
         </entry>
         <entry key="/logs/testing/bigfish/logs/training/bigfish/data_aug/seed_1752_19-06-2021_08-01-10/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/testing/bigfish/logs/training/bigfish/disout_data_aug/seed_9951_21-06-2021_15-02-45/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/testing/coinrun/logs/training/coinrun/disout/seed_9244_13-06-2021_15-05-43/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/training/coinrun/baseline/seed_1477_10-06-2021_15-31-21/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/training/coinrun/baseline/seed_1511_09-06-2021_15-32-51/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/training/coinrun/baseline/seed_3004_10-06-2021_08-27-54/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/training/coinrun/baseline/seed_3899_10-06-2021_04-51-36/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/training/coinrun/baseline/seed_4075_10-06-2021_11-59-01/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/training/coinrun/baseline/seed_5783_10-06-2021_22-39-54/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/training/coinrun/baseline/seed_7550_10-06-2021_01-19-57/log.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/logs/training/coinrun/baseline/seed_9375_10-06-2021_19-08-46/log.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
