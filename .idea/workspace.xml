@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/plots/bigfish/bigfish_testing.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/plots/bigfish/bigfish_training.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+=======
+    <list default="true" id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="reverted logs 2">
+      <change beforePath="$PROJECT_DIR$/.idea/disout-data-augmentation-procgen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/disout-data-augmentation-procgen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626687674.node001.37958.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626699545.node001.37958.1" beforeDir="false" />
@@ -313,7 +319,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="" />
@@ -400,12 +409,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing changes" />
@@ -418,5 +428,11 @@
     <MESSAGE value="crop data aug" />
     <MESSAGE value="plots" />
     <option name="LAST_COMMIT_MESSAGE" value="plots" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="167" key="SettingsEditor" timestamp="1628602931271">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="167" key="SettingsEditor/1920.72.1920.1050/-1440.385.1440.900/0.0.1920.1050@0.0.1920.1050" timestamp="1628602931271" />
   </component>
 </project>
