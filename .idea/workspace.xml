@@ -1,209 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/plots/bigfish/bigfish_testing.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plots/bigfish/bigfish_training.pdf" afterDir="false" />
+    <list default="true" id="61b48e26-e983-4460-93ae-71f31e9fc19b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-=======
-    <list default="true" id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="reverted logs 2">
       <change beforePath="$PROJECT_DIR$/.idea/disout-data-augmentation-procgen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/disout-data-augmentation-procgen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
->>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626687674.node001.37958.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626699545.node001.37958.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626711395.node001.37958.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626723248.node001.37958.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626735110.node001.37958.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626746970.node001.37958.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626758835.node001.37958.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626770701.node001.37958.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626782561.node001.37958.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626794415.node001.37958.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626806207.node001.37958.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626817889.node001.37958.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626829587.node001.37958.12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626841291.node001.37958.13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626853003.node001.37958.14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626864721.node001.37958.15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/events.out.tfevents.1626876452.node001.37958.16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/bigfish/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1626876465.node001.76940.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1626889013.node001.76940.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1626901534.node001.76940.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1626914108.node001.76940.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1626914108.node001.76940.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1626926661.node001.76940.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1626926661.node001.76940.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1626939139.node001.76940.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1626951825.node001.76940.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1626964511.node001.76940.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1626977189.node001.76940.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1626989874.node001.76940.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1626989874.node001.76940.12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627002575.node001.76940.13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627015262.node001.76940.14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627027920.node001.76940.15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627040585.node001.76940.16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627053288.node001.76940.17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627053288.node001.76940.18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627065959.node001.76940.19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627078624.node001.76940.20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627091294.node001.76940.21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627103955.node001.76940.22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627116609.node001.76940.23" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627129279.node001.76940.24" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627141948.node001.76940.25" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627154647.node001.76940.26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627167327.node001.76940.27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627180021.node001.76940.28" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627192684.node001.76940.29" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627192684.node001.76940.30" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627205370.node001.76940.31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627205370.node001.76940.32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627205370.node001.76940.33" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627218055.node001.76940.34" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627230726.node001.76940.35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627243380.node001.76940.36" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627256045.node001.76940.37" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627268700.node001.76940.38" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627281365.node001.76940.39" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627294017.node001.76940.40" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/events.out.tfevents.1627306675.node001.76940.41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_1511_09-06-2021_15-32-51/events.out.tfevents.1627947022.node001.7800.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_1511_09-06-2021_15-32-51/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_2308_24-05-2021_11-41-15/events.out.tfevents.1627959844.node001.7800.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_2308_24-05-2021_11-41-15/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_263_05-05-2021_11-17-10/events.out.tfevents.1627972630.node001.7800.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_3176_05-05-2021_11-13-30/events.out.tfevents.1627985437.node001.7800.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_3697_25-05-2021_07-18-34/events.out.tfevents.1627998243.node001.7800.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_3697_25-05-2021_07-18-34/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_4618_22-05-2021_20-50-39/events.out.tfevents.1628036557.node001.7800.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_4618_22-05-2021_20-50-39/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_5289_05-05-2021_15-50-04/events.out.tfevents.1628049313.node001.7800.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_6286_22-05-2021_01-29-45/events.out.tfevents.1628062084.node001.7800.13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_6286_22-05-2021_01-29-45/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_6357_26-05-2021_03-06-47/events.out.tfevents.1628074839.node001.7800.14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_6357_26-05-2021_03-06-47/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_6804_20-05-2021_10-36-11/events.out.tfevents.1628087588.node001.7800.15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_6804_20-05-2021_10-36-11/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_7658_09-06-2021_19-04-20/events.out.tfevents.1628113037.node001.7800.17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_812_21-05-2021_06-06-02/events.out.tfevents.1628113037.node001.7800.18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_812_21-05-2021_06-06-02/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_8751_23-05-2021_16-16-13/events.out.tfevents.1628125752.node001.7800.19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/baseline/seed_8751_23-05-2021_16-16-13/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_1732_24-05-2021_18-40-39/events.out.tfevents.1628150772.node001.7800.21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_1732_24-05-2021_18-40-39/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_185_19-05-2021_23-20-21/events.out.tfevents.1628163271.node001.7800.22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_185_19-05-2021_23-20-21/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_2781_25-05-2021_14-22-27/events.out.tfevents.1628201033.node001.7800.25" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_2781_25-05-2021_14-22-27/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_4355_26-05-2021_10-12-27/events.out.tfevents.1628226186.node001.7800.27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_4355_26-05-2021_10-12-27/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_449_23-05-2021_23-13-07/events.out.tfevents.1628238772.node001.7800.28" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_449_23-05-2021_23-13-07/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_6084_05-05-2021_15-12-56/events.out.tfevents.1628251326.node001.7800.29" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_6485_01-05-2021_12-18-41/events.out.tfevents.1628263896.node001.7800.31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_7128_05-05-2021_11-15-13/events.out.tfevents.1628263896.node001.7800.32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_7995_22-05-2021_08-21-05/events.out.tfevents.1628276476.node001.7800.34" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_7995_22-05-2021_08-21-05/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_8655_23-05-2021_03-46-16/events.out.tfevents.1628314285.node001.7800.37" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_8655_23-05-2021_03-46-16/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_8910_21-05-2021_13-02-43/events.out.tfevents.1628339461.node001.7800.39" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_8910_21-05-2021_13-02-43/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_9509_20-05-2021_17-34-12/events.out.tfevents.1628352126.node001.7800.40" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/data_aug/seed_9509_20-05-2021_17-34-12/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/coinrun/logs/training/coinrun/disout/seed_1302_21-05-2021_09-32-22/events.out.tfevents.1628364701.node001.7800.41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627306688.node001.14113.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627318764.node001.14113.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627330828.node001.14113.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627342886.node001.14113.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627354939.node001.14113.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627367011.node001.14113.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627379076.node001.14113.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627391140.node001.14113.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627403206.node001.14113.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627415272.node001.14113.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627427331.node001.14113.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627439397.node001.14113.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627451460.node001.14113.12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627463523.node001.14113.13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627475586.node001.14113.14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627487646.node001.14113.15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/events.out.tfevents.1627499712.node001.14113.16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/heist/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627499728.node001.62726.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627511889.node001.62726.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627524033.node001.62726.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627536185.node001.62726.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627548336.node001.62726.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627560481.node001.62726.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627572627.node001.62726.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627584793.node001.62726.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627596947.node001.62726.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627609112.node001.62726.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627621291.node001.62726.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627633466.node001.62726.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627645647.node001.62726.12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627657833.node001.62726.13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627670011.node001.62726.14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627682189.node001.62726.15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/events.out.tfevents.1627694373.node001.62726.16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testing/starpilot/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/bigfish/testing_rewards.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bigfish/testing_rewards.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/bigfish/training_rewards.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots/bigfish/training_rewards.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/coinrun/testing_rewards.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots/coinrun/testing_rewards.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/coinrun/training_rewards.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots/coinrun/training_rewards.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/cum_rewards.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/heist/testing_rewards.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots/heist/testing_rewards.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/heist/training_rewards.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots/heist/training_rewards.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/rewards.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/starpilot/testing_rewards.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots/starpilot/testing_rewards.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/starpilot/training_rewards.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/plots/starpilot/training_rewards.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/process_results.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/data_augs.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/data_augs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/disout.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/disout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/env/atari_wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/env/atari_wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/env/parallel_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/env/parallel_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/env/procgen_wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/env/procgen_wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/misc_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/misc_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyperparams/procgen/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hyperparams/procgen/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyperparams/procgen/config_og.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hyperparams/procgen/config_og.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Python Script" />
+        <option value="nickvanhurck &lt;nickvanhurck@hotmail.be&gt;" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1t7CsQqeS1CXEMU6oOtA7s1NOj7" />
+  <component name="ProjectId" id="1x39MwUtoYfTMVzf4lHfIlKqCmw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/plots/bigfish" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/plots/bigfish" />
-      <recent name="$PROJECT_DIR$/logs/og" />
-      <recent name="$PROJECT_DIR$/scripts" />
-      <recent name="$PROJECT_DIR$/logs" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.process_results">
+  <component name="RunManager">
     <configuration name="process_results" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="disout-data-augmentation-procgen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,214 +69,59 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_bigfish" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="disout-data-augmentation-procgen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_bigfish.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_coinrun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="disout-data-augmentation-procgen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_coinrun.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_heist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="disout-data-augmentation-procgen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_heist.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_starpilot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="disout-data-augmentation-procgen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_starpilot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.process_results" />
-        <item itemvalue="Python.test_bigfish" />
-        <item itemvalue="Python.test_starpilot" />
-        <item itemvalue="Python.test_heist" />
-        <item itemvalue="Python.test_coinrun" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="" />
-      <created>1622110948503</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1622110948503</updated>
-    </task>
-    <task id="LOCAL-00001" summary="testing changes">
-      <created>1626684656455</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1626684656455</updated>
-    </task>
-    <task id="LOCAL-00002" summary="testing changes">
-      <created>1626684695117</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1626684695117</updated>
-    </task>
-    <task id="LOCAL-00003" summary="reverted logs">
-      <created>1626687091598</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1626687091598</updated>
-    </task>
-    <task id="LOCAL-00004" summary="reverted logs 2">
-      <created>1626687154466</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1626687154466</updated>
-    </task>
-    <task id="LOCAL-00005" summary="testing shell script">
-      <created>1626687574302</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1626687574302</updated>
-    </task>
-    <task id="LOCAL-00006" summary="ppo_aug test update">
-      <created>1627743336773</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1627743336773</updated>
-    </task>
-    <task id="LOCAL-00007" summary="testing log dir update">
-      <created>1627743727665</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1627743727665</updated>
-    </task>
-    <task id="LOCAL-00008" summary="test files change to only do disout and data aug">
-      <created>1628757070643</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1628757070643</updated>
-    </task>
-    <task id="LOCAL-00009" summary="crop data aug">
-      <created>1628757327319</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1628757327319</updated>
-    </task>
-    <task id="LOCAL-00010" summary="plots">
-      <created>1628765084086</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1628765084086</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
-    <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testing changes" />
-    <MESSAGE value="reverted logs" />
-    <MESSAGE value="reverted logs 2" />
-    <MESSAGE value="testing shell script" />
-    <MESSAGE value="ppo_aug test update" />
-    <MESSAGE value="testing log dir update" />
-    <MESSAGE value="test files change to only do disout and data aug" />
-    <MESSAGE value="crop data aug" />
-    <MESSAGE value="plots" />
-    <option name="LAST_COMMIT_MESSAGE" value="plots" />
+    <MESSAGE value="new test code" />
+    <option name="LAST_COMMIT_MESSAGE" value="new test code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="167" key="SettingsEditor" timestamp="1628602931271">
+    <state x="691" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1630341276016">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="167" key="SettingsEditor/1920.72.1920.1050/-1440.385.1440.900/0.0.1920.1050@0.0.1920.1050" timestamp="1628602931271" />
+    <state x="691" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1630341276016" />
+    <state x="691" y="139" key="#process_results" timestamp="1629573070284">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="691" y="139" key="#process_results/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1629573070284" />
+    <state x="599" y="118" key="CommitChangelistDialog2" timestamp="1630342318098">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="599" y="118" key="CommitChangelistDialog2/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1630342318098" />
+    <state width="1899" height="151" key="GridCell.Tab.0.bottom" timestamp="1629577024028">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="151" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1629577024028" />
+    <state width="1899" height="151" key="GridCell.Tab.0.center" timestamp="1629577024027">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="151" key="GridCell.Tab.0.center/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1629577024027" />
+    <state width="1899" height="151" key="GridCell.Tab.0.left" timestamp="1629577024026">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="151" key="GridCell.Tab.0.left/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1629577024026" />
+    <state width="1899" height="151" key="GridCell.Tab.0.right" timestamp="1629577024027">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="151" key="GridCell.Tab.0.right/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1629577024027" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1629573082759">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1629573082759" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1630342384449">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1630342384449" />
+    <state x="603" y="316" key="git4idea.merge.GitPullDialog" timestamp="1630342045930">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="603" y="316" key="git4idea.merge.GitPullDialog/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1630342045930" />
   </component>
 </project>
