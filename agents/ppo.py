@@ -161,11 +161,11 @@ class PPO(BaseAgent):
       for _ in range(self.n_steps):
         act, log_prob_act, value, next_hidden_state = self.predict(obs, hidden_state, done)
         next_obs, rew, done, info = self.env.step(act)
-        # self.storage.store(obs, hidden_state, act, rew, done, info, log_prob_act, value)
+        self.storage.store(obs, hidden_state, act, rew, done, info, log_prob_act, value)
         obs = next_obs
         hidden_state = next_hidden_state
       _, _, last_val, hidden_state = self.predict(obs, hidden_state, done)
-      # self.storage.store_last(obs, hidden_state, last_val)
+      self.storage.store_last(obs, hidden_state, last_val)
       # Compute advantage estimates
       # self.storage.compute_estimates(self.gamma, self.lmbda, self.use_gae, self.normalize_adv)
       

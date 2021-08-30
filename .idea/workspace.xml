@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61b48e26-e983-4460-93ae-71f31e9fc19b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/disout-data-augmentation-procgen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/disout-data-augmentation-procgen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/data_augs.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/data_augs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/disout.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/disout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/env/atari_wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/env/atari_wrappers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/env/parallel_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/env/parallel_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/env/procgen_wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/env/procgen_wrappers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/misc_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/misc_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/policy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/storage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hyperparams/procgen/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hyperparams/procgen/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hyperparams/procgen/config_og.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hyperparams/procgen/config_og.yml" afterDir="false" />
+    <list default="true" id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/agents/ppo.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/ppo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agents/ppo_aug.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/ppo_aug.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +19,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1x39MwUtoYfTMVzf4lHfIlKqCmw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -77,6 +61,12 @@
   </component>
   <component name="SvnConfiguration">
     <configuration />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new test code" />
