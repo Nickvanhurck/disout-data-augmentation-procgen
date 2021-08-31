@@ -164,6 +164,3 @@ if __name__ == '__main__':
           #############
           # print('START TESTING...')
           agent.test(num_timesteps)
-          
-        # only do one run each
-        break
