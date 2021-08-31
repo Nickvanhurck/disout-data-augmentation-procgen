@@ -134,8 +134,9 @@ if __name__ == '__main__':
       # PATH (seed dir)
       PATH = os.path.join(DIR, PATH)
       
-      log_save_dir = os.path.join(log_test_path, PATH)
-      
+      # log_save_dir = os.path.join(log_test_path, PATH)
+      log_save_dir = os.path.join(log_test_path, "result")
+
       ############
       ## LOGGER ##
       ############
@@ -164,5 +165,5 @@ if __name__ == '__main__':
           # print('START TESTING...')
           agent.test(num_timesteps)
           
-          # only do one run each
-          break
+        # only do one run each
+        break

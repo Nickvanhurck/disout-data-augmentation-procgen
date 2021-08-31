@@ -134,21 +134,22 @@ if __name__ == '__main__':
       # PATH (seed dir)
       PATH = os.path.join(DIR, PATH)
       
-      log_save_dir = os.path.join(log_test_path, PATH)
-      
+      # log_save_dir = os.path.join(log_test_path, PATH)
+      log_save_dir = os.path.join(log_test_path, "result")
+
       ############
       ## LOGGER ##
       ############
       # print('INITIALIZAING LOGGER...')
       logger = Logger(n_envs, log_save_dir, True)
-      
+
       for file in os.listdir(PATH):
         file = os.path.join(PATH, file)
         if file.endswith(".pth"):
           policy.load_state_dict(torch.load(file)["state_dict"])
           # policy.load_state_dict(torch.load(file, map_location=torch.device('cpu'))["state_dict"])
           # policy.eval()
-          
+
           ###########
           ## AGENT ##
           ###########
@@ -157,12 +158,12 @@ if __name__ == '__main__':
             agent = AUG_AGENT(env, policy, logger, storage, device, num_checkpoints, **hyperparameters)
           else:
             agent = AGENT(env, policy, logger, storage, device, num_checkpoints, **hyperparameters)
-          
+
           #############
           ## TESTING ##
           #############
           # print('START TESTING...')
           agent.test(num_timesteps)
-          
-          # only do one run each
-          break
+
+        # only do one run each
+        break
