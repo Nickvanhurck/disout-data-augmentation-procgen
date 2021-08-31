@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/agents/ppo.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/ppo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/ppo_aug.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/ppo_aug.py" afterDir="false" />
+    <list default="true" id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="ppo changes">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bigfish.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_bigfish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_coinrun.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_coinrun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_heist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_heist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_starpilot.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_starpilot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +31,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/logs" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/logs" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="process_results" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -59,10 +69,39 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="ppo changes">
+      <created>1630343833611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630343833611</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <created>1630412762612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630412762612</updated>
+    </task>
+    <task id="LOCAL-00002" summary="testings">
+      <created>1630413189815</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630413189815</updated>
+    </task>
+    <task id="LOCAL-00003" summary="log files removal">
+      <created>1630413925198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630413925198</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,48 +109,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new test code" />
-    <option name="LAST_COMMIT_MESSAGE" value="new test code" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="691" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1630341276016">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="691" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1630341276016" />
-    <state x="691" y="139" key="#process_results" timestamp="1629573070284">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="691" y="139" key="#process_results/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1629573070284" />
-    <state x="599" y="118" key="CommitChangelistDialog2" timestamp="1630342318098">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="599" y="118" key="CommitChangelistDialog2/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1630342318098" />
-    <state width="1899" height="151" key="GridCell.Tab.0.bottom" timestamp="1629577024028">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1899" height="151" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1629577024028" />
-    <state width="1899" height="151" key="GridCell.Tab.0.center" timestamp="1629577024027">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1899" height="151" key="GridCell.Tab.0.center/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1629577024027" />
-    <state width="1899" height="151" key="GridCell.Tab.0.left" timestamp="1629577024026">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1899" height="151" key="GridCell.Tab.0.left/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1629577024026" />
-    <state width="1899" height="151" key="GridCell.Tab.0.right" timestamp="1629577024027">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1899" height="151" key="GridCell.Tab.0.right/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1629577024027" />
-    <state x="461" y="167" key="SettingsEditor" timestamp="1629573082759">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1629573082759" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1630342384449">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1630342384449" />
-    <state x="603" y="316" key="git4idea.merge.GitPullDialog" timestamp="1630342045930">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="603" y="316" key="git4idea.merge.GitPullDialog/0.0.1920.1050/1920.72.1920.1080/-1440.385.1440.900@0.0.1920.1050" timestamp="1630342045930" />
+    <MESSAGE value="ppo changes" />
+    <MESSAGE value="testings" />
+    <MESSAGE value="log files removal" />
+    <option name="LAST_COMMIT_MESSAGE" value="log files removal" />
   </component>
 </project>

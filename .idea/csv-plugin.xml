@@ -3,7 +3,7 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\log.csv">
+        <entry key="/logs/og (training)/heist/disout/seed_92_24-06-2021_13-48-45/log.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -2937,13 +2937,6 @@
           </value>
         </entry>
         <entry key="\logs\training\starpilot\disout_data_aug\seed_9547_06-07-2021_18-56-05\log.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\process_results.py">
           <value>
             <Attribute>
               <option name="separator" value="," />

@@ -129,13 +129,14 @@ if __name__ == '__main__':
   for i, dir in enumerate(["baseline", "data_aug", "disout", "disout_data_aug"]):
   # for i, dir in enumerate(["disout", "disout_data_aug"]):
     DIR = os.path.join(log_path, dir)
+    log_test_tmp = os.path.join(log_test_path, dir)
     # loop over files in dir
     for PATH in os.listdir(DIR):
       # PATH (seed dir)
       PATH = os.path.join(DIR, PATH)
-      
+
       # log_save_dir = os.path.join(log_test_path, PATH)
-      log_save_dir = os.path.join(log_test_path, "result")
+      log_save_dir = os.path.join(log_test_tmp, "result")
 
       ############
       ## LOGGER ##
