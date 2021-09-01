@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b042253-c4b0-4f25-9d74-edc4832b0a59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test_bigfish.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_bigfish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_coinrun.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_coinrun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_heist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_heist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_starpilot.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_starpilot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/process_results_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/disout-data-augmentation-procgen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/disout-data-augmentation-procgen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +32,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/logs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/logs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.process_results_testing">
     <configuration name="process_results" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="disout-data-augmentation-procgen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,8 +63,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="process_results_testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="disout-data-augmentation-procgen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process_results_testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.process_results_testing" />
         <item itemvalue="Python.process_results" />
       </list>
     </recent_temporary>
@@ -106,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630423634281</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="last change (for real)">
+      <created>1630423808157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630423808157</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +149,7 @@
     <MESSAGE value="testings" />
     <MESSAGE value="log files removal" />
     <MESSAGE value="last change" />
-    <option name="LAST_COMMIT_MESSAGE" value="last change" />
+    <MESSAGE value="last change (for real)" />
+    <option name="LAST_COMMIT_MESSAGE" value="last change (for real)" />
   </component>
 </project>
